@@ -23,6 +23,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     margin: 10px 0;
+    
 }
 input{
     width: 100%;
@@ -136,7 +137,7 @@ input::placeholder{
     text-align: center;
     padding: 50px;
 }
-@media (min-width:426px) and (max-width:950px){
+@media (min-width:426px) and (max-width:768px){
     .price input{
         width: 100%;
     }
@@ -146,6 +147,7 @@ input::placeholder{
         background-color: rgba(243, 243, 234, 0.466);
         padding: 20px 20px;
         border-radius: 25px;
+        box-shadow: 0px 0px 50px 7px rgb(0, 0, 0);
     }
     table th {
         font-size:small;
@@ -170,6 +172,7 @@ input::placeholder{
         background: rgba(243, 243, 234, 0.466) ;
         padding: 20px;
         border-radius: none;
+        box-shadow: 0px 0px 50px 3px rgb(0, 0, 0);
     }   
     .price input{
         width: 100%;
