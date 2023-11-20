@@ -135,7 +135,7 @@ input::placeholder{
     text-align: center;
     padding: 50px;
 }
-@media (min-width:426px) and (max-width:768px){
+@media (min-width:426px) and (max-width:950px){
     .price input{
         width: 100%;
     }
